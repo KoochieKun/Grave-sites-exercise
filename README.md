@@ -1,3 +1,3 @@
 # Grave-sites-exercise
 
-visit the page using: https://koochiekun.github.io/Grave-sites-exercise/
+visit the page using: https://github.com/batsyKun/Grave-sites-exercise
