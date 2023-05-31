@@ -19,11 +19,17 @@ header {
     display: flex;
     margin-left: auto;
     align-items: center;
-    gap:10px;
+    gap:20px;
 
 }
 .navu > p {
     margin-right: 50px;
+}
+#designation {
+    opacity: .6;
+}
+.user > p {
+    margin: 0;
 }
 .middlehead ,.navu {
     display: flex;
@@ -52,16 +58,20 @@ header {
 .progress{
     padding: 30px;
     margin-left: 50px;
-    margin-right: 300px;
+    margin-right: 200px;
 }
 #mainInput {
     width: 625px;
     background-color: white;
     margin-top: 50px;
-    padding: 40px 30px;
+    padding: 10px 30px 30px;
     border-radius: 10px;
     height: 100%;
     
+}
+
+hr{
+    opacity: .6;
 }
 #mainInput > h1 {
     font-size: 30px;
@@ -125,6 +135,7 @@ footer{
     display: flex;
     color: white;
     align-items: end;
+    height: 70px;
 }
 #copyright {
     margin-left: 30px;
@@ -146,11 +157,14 @@ footer{
 .current{
     list-style-image: url("icons/bullet.png");
     padding-left: 20px; 
+    margin-bottom: 5px;
+
   }
   .upcoming {
     list-style-image: url("icons/bullet1.png");
     padding-left: 20px; 
-    margin: 2px
+    padding-right: 30px;
+    margin-bottom: 5px;
   }
   .logo {
     margin-right: 10px;
@@ -158,4 +172,5 @@ footer{
   .logoMid {
     margin-right: 10px;
   }
+
 
