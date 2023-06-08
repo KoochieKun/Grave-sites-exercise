@@ -14,7 +14,7 @@ header {
     justify-content: center;
 
 }
-.righthead {
+.rightHead {
     margin-right: 30px;
     display: flex;
     margin-left: auto;
@@ -22,7 +22,7 @@ header {
     gap:20px;
 
 }
-.navu > p {
+.nav > p {
     margin-right: 50px;
 }
 #designation {
@@ -31,13 +31,13 @@ header {
 .user > p {
     margin: 0;
 }
-.middlehead ,.navu {
+.middleHead ,.nav {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.lefthead {
+.leftHead {
     margin-right: auto;
     margin-left: 30px;
     display: flex;
@@ -137,7 +137,7 @@ footer{
     align-items: end;
     height: 70px;
 }
-#copyright {
+#copyRight {
     margin-left: 30px;
 
 }
@@ -150,7 +150,7 @@ footer{
     align-items: center;
 }
 
-.custom-bullet {
+.customBullet {
     list-style-type: none;
 }
 
