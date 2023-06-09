@@ -12,6 +12,8 @@ header {
     color: white;
     width: 100%;
     justify-content: center;
+    min-width:100vh;
+
 
 }
 .rightHead {
@@ -53,21 +55,24 @@ header {
     display: flex;
     align-items: center;
     gap:5px;
+    flex: 0 1 350px;
 
 }
 #grave{
     color: #024102;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
 }
 .main {
     display: flex;
     justify-content: start;
     flex: 1;
+    flex-wrap: wrap;
+
 }
 .progress{
     padding: 30px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-right: 200px;
 }
 #mainInput {
@@ -84,13 +89,13 @@ hr{
     opacity: .6;
 }
 #mainInput > h1 {
-    font-size: 30px;
+    font-size: 27px;
      
 }
 
 
 #mainInput > p {
-    font-size: 20px;
+    font-size: 13px;
     color: #343A40;
 }
 
@@ -106,15 +111,16 @@ hr{
 }
 select{
     width: 295px;
-    padding: 15px;
+    padding: 10px;
     font-size:17px;
     border-radius: 10px;
     border: 1px solid #D3D7DC;
+    color: #7e7e7e;
 
 }
 input {
     width: 260px;
-    padding: 15px;
+    padding: 10px;
     font-size:17px;
     border-radius: 10px;
     border: 1px solid #D3D7DC;
@@ -146,6 +152,8 @@ footer{
     color: white;
     align-items: end;
     height: 70px;
+    min-width:100vh;
+
 }
 #copyRight {
     margin-left: 30px;
@@ -158,29 +166,22 @@ footer{
     gap: 30px;
     margin-right: 50px;
     align-items: center;
+
+
 }
 
 .customBullet {
     list-style-type: none;
 }
 
-.current{
-    list-style-image: url("icons/bullet.png");
-    padding-left: 20px; 
-    margin-bottom: 5px;
-
-  }
-  .upcoming {
-    list-style-image: url("icons/bullet1.png");
-    padding-left: 20px; 
-    padding-right: 30px;
-    margin-bottom: 5px;
-  }
   .logo {
     margin-right: 10px;
   }
   .logoMid {
     margin-right: 10px;
+  }
+  .progressive {
+    width: 250px;
   }
 
 
