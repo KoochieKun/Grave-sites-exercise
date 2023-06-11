@@ -60,7 +60,7 @@ header {
 }
 #grave{
     color: #024102;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
 }
 .main {
@@ -73,7 +73,7 @@ header {
 .progress{
     padding: 30px;
     margin-left: 20px;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 #mainInput {
     width: 625px;
@@ -181,7 +181,7 @@ footer{
     margin-right: 10px;
   }
   .progressive {
-    width: 250px;
+    width: 200px;
   }
   select {
 
