@@ -110,7 +110,7 @@ hr{
 
 }
 select{
-    width: 295px;
+    width: 285px;
     padding: 10px;
     font-size:17px;
     border-radius: 10px;
@@ -183,5 +183,15 @@ footer{
   .progressive {
     width: 250px;
   }
+  select {
 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('assets/icons/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-position: 260px;
+
+  }
 
